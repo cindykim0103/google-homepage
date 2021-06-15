@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+#nine-dots {
+  width: 15px;
+  height: auto;
+  margin: 10px;
+}
+
+#nine-dots:hover {
+  box-shadow: 10 10 10px 30 black;
+}
+
+#sign-in {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 23px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+#google-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 600px;
+  border-radius: 50px;
+  border: 1px solid #e1e1e1;
+  margin-top: 30px;
+}
+
+#magnifying-glass-icon {
+  height: 15px;
+  width: auto;
+  opacity: 40%;
+  flex-direction: left;
+  padding: 20px;
+}
+
+#searchbar {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  flex-grow: 1;
+  outline: none;
+}
+
+#microphone-icon {
+  height: 30px;
+  width: auto;
+  flex-direction: right;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#searchbttn,
+#lucky {
+  margin: 20px 10px;
+  border: none #e1e1e1;
+  height: 35px;
+  width: 130px;
+  border-radius: 7%;
+  cursor: pointer;
+}
+
+#searchbttn:hover,
+#lucky:hover {
+  border: solid 1px grey;
+}
+
+#francais {
+  color: blue;
+}
+
+#francais:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #e1e1e1;
+  border: lightgrey solid 1px;
+  height: 50px;
+  text-indent: 20px;
+  line-height: 55px;
+}
+
+.footer-right {
+  margin-right: 20px;
+}
