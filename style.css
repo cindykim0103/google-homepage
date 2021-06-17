@@ -136,3 +136,19 @@ footer {
 .footer-right {
   margin-right: 20px;
 }
+
+@media (max-width: 425px) {
+  .header-nav {
+    margin-right: -50px;
+  }
+  main {
+    margin-left: 40px;
+  }
+  #google-logo {
+    margin-top: -100px;
+  }
+  .search {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
