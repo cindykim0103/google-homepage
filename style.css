@@ -151,4 +151,6 @@ footer {
     width: 100%;
     margin-top: 20px;
   }
+  footer {
+    flex-direction: column;
 }
