@@ -97,7 +97,8 @@ main {
 }
 
 #searchbttn,
-#lucky {
+#lucky,
+#input-color-switch {
   margin: 20px 10px;
   border: none #e1e1e1;
   height: 35px;
@@ -154,3 +155,9 @@ footer {
   footer {
     flex-direction: column;
 }
+  
+.darkTheme {
+  background-color: black;
+  color: white;
+}
+  
