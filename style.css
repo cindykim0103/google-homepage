@@ -155,9 +155,3 @@ footer {
   footer {
     flex-direction: column;
 }
-  
-.darkTheme {
-  background-color: black;
-  color: white;
-}
-  
